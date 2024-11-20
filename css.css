@@ -1,0 +1,68 @@
+#div1{
+    width: 100%;
+    text-align: center;
+    color: blueviolet;
+    border-style: solid;
+    border-color: black;
+
+}
+#div2{
+    border-color: black;
+    border-style: solid;
+    position: relative;
+    border-style: solid;
+    width: 100%;
+    height: 300px;
+
+}
+.img1,.img2{
+    width: 100%;
+    height: 300px;
+    position:absolute;
+    animation: anim 8s infinite;
+}
+.img2{
+    animation-delay:4s;
+
+}
+
+.container{
+    display:flex;
+    width: 100%;
+
+}
+
+.div3{
+    width: 60%;
+    height: 200px;
+    border-color: black;
+    color: rgb(11, 28, 210);
+    text-align: left;
+    border-style: solid;
+
+}
+
+.div4{
+    width: 60%;
+    height: 200px;
+    border-color: black;
+    color: rgb(44, 5, 186);
+    text-align: left;
+    border-style: solid;
+
+}
+
+
+
+@keyframes anim{
+    0%{
+        opacity:0;
+    }
+    50%{
+        opacity:1;
+    }
+    100%{
+        opacity:0;
+    }
+
+}
