@@ -1,0 +1,47 @@
+            .se {
+                width:600px;
+            }
+             .button:hover{
+
+            border:none;
+            color: rgb(237, 244, 239);
+            background-color:rgb(13, 105, 13);
+            display:inline-block;
+            transition-duration:0.4s;
+             cursor: pointer;
+            }
+            table{
+                margin: 14px;
+                width:50px;
+                padding: 10px;
+            }
+            body{
+                display:flex;
+                flex-direction: row-reverse;
+                align-items: center;
+                justify-content: center;
+            }
+            form{
+                margin-top:80px;
+                width:340px;
+                height:250px;
+                border: 1px solid black;
+
+            }
+
+            input{
+                margin-left: 20px;
+                margin-top: 13px;
+                width :280px;
+                height:25px;
+
+            }
+            input[value=submit]{
+margin-left:70px;
+width :180px;
+height :25px;
+color:white;
+background-color:rgb(164, 164, 164);
+
+            }
+            

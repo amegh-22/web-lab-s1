@@ -1,0 +1,17 @@
+*
+{
+font-family:'Times New Roman', Times, serif;
+}
+table
+{
+    border-style:dotted;
+    border-width:2px;
+    border-collapse:collapse;
+}
+.head{
+    font-family: monospace;
+    font-style: oblique;
+}
+#data{
+    color:red;
+}

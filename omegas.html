@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        body {
+            background-image: url('bgbb.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            font-family: Arial, sans-serif;
+        }
+        fieldset {
+            margin: 20px auto;
+            padding: 20px;
+            border: 2px solid #ccc;
+            border-radius: 10px;
+            background-color: rgba(255, 255, 255, 0.8);
+            width: 300px; /* Set a fixed width for better alignment */
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        input {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <form name="frm1" onsubmit="return form_validation()">
+        <fieldset>
+            <legend>Personal Info</legend>
+            <table>
+                <tr>
+                    <th><label for="first-name">First Name:</label></th>
+                    <td><input type="text" id="first-name" name="nm" placeholder="Enter your name" required><span id="sp1"></span></td>
+                </tr>
+                <tr>
+                    <th><label for="password">Password:</label></th>
+                    <td><input type="password" id="password" name="se" placeholder="Enter your password" required><span id="sp2"></span></td>
+                </tr>
+                <tr>
+                    <th><label for="confirm-password">Confirm Password:</label></th>
+                    <td><input type="password" id="confirm-password" name="se1" placeholder="Confirm your password" required><span id="sp3"></span></td>
+                </tr>
+                <tr>
+                    <th><label for="phone">Phone No:</label></th>
+                    <td><input type="tel" id="phone" name="tele" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="123-456-7890" required></td>
+                </tr>
+                <tr>
+                    <th><label for="email">Email:</label></th>
+                    <td><input type="email" id="email" name="em" placeholder="name@gmail.com" required></td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <input type="submit" value="Submit">
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+    </form>
+    <script src="vomehga.js"></script>
+</body>
+
+</html>
